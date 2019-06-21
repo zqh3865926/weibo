@@ -9,8 +9,9 @@
           <a class="nav-link " href="{{route('about')}}">关于我们</a>
         </li>
       </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">登陆</button>
-      </form>
+
+      <button class="btn btn-outline-success my-4 my-sm-0" onclick="window.location.href='{{route('signup')}}'" >立即注册</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" >登陆</button>
+
     </div>
   </nav>
