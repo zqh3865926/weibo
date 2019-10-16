@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>@yield('title','Weibo App')</title>
+  <title>@yield('title','崋箜流年')</title>
   <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
 </head>
 <body>
