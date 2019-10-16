@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Auth;
+use function PHPSTORM_META\type;
+
 class StaticPagesController extends Controller
 {
     public function home()
